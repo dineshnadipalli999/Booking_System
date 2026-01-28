@@ -1,0 +1,42 @@
+/* Navbar */
+.navbar {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 14px;
+}
+
+.nav-links button {
+  background-color: white;
+  color: #3498db;
+  width: auto;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+/* SAME PAGE STYLE */
+.page {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
